@@ -94,26 +94,26 @@ const text = {
 const image = {
   0: {
     style:
-      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('./assets/images/night.jpg') no-repeat; background-size: cover",
   },
   6: {
     style:
-      "background: url('../assets/images/loch.jpg') no-repeat; background-size: cover",
+      "background: url('./assets/images/loch.jpg') no-repeat; background-size: cover",
     // с 6 до 10',
   },
   10: {
     style:
-      "background: url('../assets/images/loch.jpg') no-repeat; background-size: cover",
+      "background: url('./assets/images/loch.jpg') no-repeat; background-size: cover",
 
     // с 10 до 16',
   },
   16: {
     style:
-      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('./assets/images/night.jpg') no-repeat; background-size: cover",
   },
   22: {
     style:
-      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('./assets/images/night.jpg') no-repeat; background-size: cover",
   },
 };
 
