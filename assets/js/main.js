@@ -39,54 +39,64 @@ const ton = document.getElementById('ton');
 const textMin = {
   0: {
     textContent: 'Good night',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
     // с 12 ночи до 6',
   },
   6: {
     textContent: 'Good morning',
-    style: 'background: url("../../assets/images/sun.svg") no-repeat',
+    style:
+      'background: url("./assets/images/sun.svg"); background-repeat: no-repeat',
     // с 6 до 10',
   },
   10: {
     textContent: 'Good afternoon',
-    style: 'background: url("../../assets/images/sun.svg") no-repeat',
+    style:
+      'background: url("./assets/images/sun.svg"); background-repeat: no-repeat',
     // с 10 до 16',
   },
   16: {
     textContent: 'Good evening',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
     // с 16 до 22',
   },
   22: {
     textContent: 'Good night',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
   },
 };
 
 const text = {
   0: {
     textContent: 'Good night, it’s currently',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
     // с 12 ночи до 6',
   },
   6: {
     textContent: 'Good morning, it’s currently',
-    style: 'background: url("../../assets/images/sun.svg") no-repeat',
+    style:
+      'background: url("./assets/images/sun.svg"); background-repeat: no-repeat',
     // с 6 до 10',
   },
   10: {
     textContent: 'Good afternoon, it’s currently',
-    style: 'background: url("../../assets/images/sun.svg") no-repeat',
+    style:
+      'background: url("./assets/images/sun.svg"); background-repeat: no-repeat',
     // с 10 до 16',
   },
   16: {
     textContent: 'Good evening, it’s currently',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
     // с 16 до 22',
   },
   22: {
     textContent: 'Good night, it’s currently',
-    style: 'background: url("../../assets/images/moon.svg") no-repeat',
+    style:
+      'background: url("./assets/images/moon.svg"); background-repeat: no-repeat',
   },
 };
 
