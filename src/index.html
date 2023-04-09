@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <main class="main" id="main">
+        <section class="quote">
+          <div class="container card-container">
+            <div class="date-card">
+              <div class="date-cart__active"></div>
+              <div class="card-quote" id="quote">
+                <!-- 1 -->
+                <div class="card-quote__item">
+                  <figure class="quote-form">
+                    <blockquote class="quote-form-block">
+                      <p class="quote-form-block__text">
+                        “The science of operations, as derived from mathematics
+                        more especially, is a science of itself, and has its own
+                        abstract truth and value.”
+                      </p>
+                    </blockquote>
+                    <figcaption>
+                      <div class="quote-form-caption">Ada Lovelace</div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- 2 -->
+                <div class="card-quote__item">
+                  <figure class="quote-form">
+                    <blockquote class="quote-form-block">
+                      <p class="quote-form-block__text">
+                        "In every department of physical science there is only
+                        so much science, properly so-called, as there is
+                        mathematics"
+                      </p>
+                    </blockquote>
+                    <figcaption class="quote-form-caption">
+                      Immanuel Kant
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- 3 -->
+                <div class="card-quote__item">
+                  <figure class="quote-form">
+                    <blockquote class="quote-form-block">
+                      <p class="quote-form-block__text">
+                        “War is peace. Freedom is slavery. Ignorance is
+                        strength.”
+                      </p>
+                    </blockquote>
+                    <figcaption class="quote-form-caption">
+                      George Orwell
+                    </figcaption>
+                  </figure>
+                </div>
+                <!-- end -->
+              </div>
+            </div>
+
+            <div class="card-control">
+              <button class="card__btn">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.5"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M13 4.76457L10.6884 6.97749C10.6287 7.03702 10.6107 7.12666 10.6429 7.20457C10.6752 7.28248 10.7511 7.3333 10.8354 7.33332H17.3334V1.10416C17.3328 1.02008 17.2818 0.944558 17.204 0.912674C17.1262 0.88079 17.0369 0.898794 16.9775 0.958322L14.8046 3.03707C12.7334 1.0125 9.75831 0.210711 6.9502 0.920285C4.14209 1.62986 1.90505 3.74867 1.04419 6.51416L3.43085 7.25999C4.02898 5.3392 5.57591 3.863 7.52257 3.35536C9.46924 2.84771 11.5401 3.38049 13 4.76457ZM7.38031 10.7951C7.34804 10.7174 7.27213 10.6667 7.18794 10.6667H0.666687V16.8154C0.666705 16.8997 0.717527 16.9757 0.795437 17.0079C0.873346 17.0401 0.962985 17.0222 1.02252 16.9625L3.17085 14.9408C5.23884 16.977 8.2182 17.7889 11.0333 17.0833C13.8484 16.3778 16.0927 14.2567 16.9559 11.4858L14.5692 10.74C13.9702 12.6626 12.4208 14.1396 10.4717 14.6459C8.52258 15.1522 6.45022 14.616 4.99127 13.2279L7.33544 11.0221C7.39488 10.9624 7.41259 10.8729 7.38031 10.7951Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="date">
+          <div class="container date-container">
+            <div class="date-vision">
+              <div class="date-base">
+                <div class="top_good" id="top_good"></div>
+
+                <div class="date-timezone">
+                  <div class="date-head">
+                    <h1 class="date-head__header"></h1>
+                  </div>
+
+                  <div class="date-zone">
+                    <span class="date-zone__text"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="date-btn" onclick="this.classList.toggle('active')">
+                <span></span>
+                <img
+                  class="date-img__img"
+                  src="./assets/images/path.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="hide" id="ton">
+        <div class="date-hide">
+          <div class="date-hidden">
+            <div class="date-hidden__local date-d date-d-left">
+              <h3 class="date-hidden__local-head head-d">Current timezone</h3>
+              <div class="date-hidden__local-zone zone-d"></div>
+            </div>
+
+            <div class="date-long"></div>
+
+            <div class="date-hidden__dayofyear date-d date-d-right">
+              <h3 class="date-hidden__dayofyear-head head-d">
+                Day of the year
+              </h3>
+              <div class="date-hidden__dayofyear-zone zone-d"></div>
+            </div>
+
+            <div class="date-hidden__dayofweek date-d">
+              <h3 class="date-hidden__dayofweek-head head-d">
+                Day of the week
+              </h3>
+              <div class="date-hidden__dayofweek-zone zone-d"></div>
+            </div>
+
+            <div class="date-long"></div>
+
+            <div class="date-hidden__weeknumber date-d date-d-right">
+              <h3 class="date-hidden__weeknumber-head head-d">Week number</h3>
+              <div class="date-hidden__weeknumber-zone zone-d"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.3.0/luxon.min.js"
+      integrity="sha512-KKbQg5o92MwtJKR9sfm/HkREzfyzNMiKPIQ7i7SZOxwEdiNCm4Svayn2DBq7MKEdrqPJUOSIpy1v6PpFlCQ0YA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/main.min.js"></script>
+  </body>
+</html>
