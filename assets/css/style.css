@@ -464,10 +464,6 @@ body {
 }
 
 @media (max-width: 973px) {
-    .date-container {
-        margin-top: 150px;
-    }
-
     .hide {
         padding: 55px 26px 80px;
     }
@@ -486,12 +482,6 @@ body {
         font-size: 13px;
         line-height: 28px;
         letter-spacing: 2.6px;
-    }
-}
-
-@media (max-width: 380px) {
-    .date-container {
-        margin-top: 100px;
     }
 }
 
