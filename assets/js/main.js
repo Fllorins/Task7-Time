@@ -23,7 +23,7 @@ const dt = DateTime.local().setLocale('en-GB').toFormat('ZZZZ');
 const fd = DateTime.fromISO(DateTime.local(), {
   locale: 'en-GB',
 }).toFormat('ZZZZZ');
-// console.log(fd);
+
 
 const nowCycle = setInterval(function nowTime() {
   const now = DateTime.local().toFormat('t').toString();
@@ -94,26 +94,26 @@ const text = {
 const image = {
   0: {
     style:
-      "background: url('./../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
   },
   6: {
     style:
-      "background: url('./../assets/images/loch.jpg') no-repeat; background-size: cover",
+      "background: url('../assets/images/loch.jpg') no-repeat; background-size: cover",
     // с 6 до 10',
   },
   10: {
     style:
-      "background: url('./../assets/images/loch.jpg') no-repeat; background-size: cover",
+      "background: url('../assets/images/loch.jpg') no-repeat; background-size: cover",
 
     // с 10 до 16',
   },
   16: {
     style:
-      "background: url('./../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
   },
   22: {
     style:
-      "background: url('./../assets/images/night.jpg') no-repeat; background-size: cover",
+      "background: url('../assets/images/night.jpg') no-repeat; background-size: cover",
   },
 };
 
